@@ -4,59 +4,89 @@
 
 .container1{
 	position: fixed;
-    
+  
 	width:100vw;
-	z-index:20;
+	z-index:99;
 }
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:10px !important; 
+    padding-bottom:0 !important;
+    height: 40px;
+}
+.navbar {min-height:40px !important;height:40px !important;}
 
 .equinav .navbar-brand {
+
 	display: none;
+
+	
 }
 .equinav .navbar-collapse {
+	
 	padding: 0 !important;
 	
 }
 
 .equinav-collapse .navbar-header {
+
 	float: none;
 }
 .equinav-collapse .navbar-brand,
 .equinav-collapse .navbar-toggle {
+	top:0px;
+	height:30px;
+
 	display: block !important;
+
+	
+}
+.navbar-toggle{
+		background:rgba(87%, 27%, 55%,0.5);
 	
 }
 .equina-collapse .navbar-collapse {
-	border-top: 1px solid #e7e7e7 !important;
+	border-top: 1px solid #1F286F !important;
+
 }
 .equinav-collapse .navbar-collapse.collapse {
 	display: none !important;
+
 }
 .equinav-collapse .navbar-nav {
+
 	
 	float: none !important;
 	margin: 0 !important;
 }
 .equinav-collapse .navbar-nav > li {
+	
+	
 	width: auto !important;
 	float: none !important;
 }
 .equinav-collapse .navbar-nav > li > a {
+
 	text-align: left !important;
-	padding-top: 10px !important;
-	padding-bottom: 10px !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+	
 }
 .equinav-collapse .navbar-collapse,
 .equinav-collapse .navbar-collapse.collapse.in {
-	border-top: 1px solid #e7e7e7 !important;
+
+	border-top: 1px solid #1F286F !important;
 	display: block !important;
 }
 .equinav-collapse .collapsing {
+
 	overflow: hidden !important;
 }
 .equinav-collapse .dropdown-toggle {
-	background-color: #e7e7e7 !important;
+	background-color: #F39700 !important;
 }
 .equinav-collapse .dropdown-toggle > .caret {
+
 	display: inline-block !important;
 }
 .equinav-collapse .dropdown-menu {
@@ -65,13 +95,16 @@
 	border: 0 !important;
 	box-shadow: none !important;
 	position: relative !important;
+
 }
 .equinav-collapse .navbar-nav .open .dropdown-menu {
+
 	display: block !important;
 }
 .equinav-collapse .navbar-nav .open .dropdown-menu > li > a,
 .equinav-collapse .navbar-nav .open .dropdown-menu .dropdown-header {
-	color: #777 !important;
+
+	color: #dd448c !important;
 	padding: 5px 15px 5px 25px !important;
 }
 

@@ -19,14 +19,17 @@
                 // Get the HTML DOM element that will contain your map 
                 // We are using a div with id="map" seen below in the <body>
                 var mapElement = document.getElementById('map');
+				var mapElement2 = document.getElementById('map2');
 
                 // Create the Google Map using our element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
+				var map2 = new google.maps.Map(mapElement2, mapOptions);
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(25.1325182, 121.4674931),
                     map: map,
+					map: map2,
                     title: '北藝大!'
                 });
             }

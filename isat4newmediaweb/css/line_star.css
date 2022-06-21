@@ -19,14 +19,14 @@ body {
     height: 0px;
     border-radius: 0%;
     background: #F39700;
-    top: 100px;
+    top: 130px;
     right: 400px;
     position: relative;
     transform-origin: 100% 0;
     animation: star-ani 6s infinite ease-out;
     box-shadow: 0 0 0px 0px rgba(255, 255, 255, .3);
     opacity: 0;
-    z-index: 2;
+    z-index: 0;
 }
 
 .star:after {
@@ -58,7 +58,7 @@ body {
     -moz-animation-delay: 5s;
 }
 .blue {
-    top: 300px;
+    top: 570px;
     right: 432px;
     background: #fcd64b;
     animation-delay: 7s;
@@ -72,7 +72,7 @@ body {
     animation-delay: 7s;
 }
 .blue1 {
-    top: 200px;
+    top: 300px;
     right: 432px;
     background: #fcd64b;
     animation-delay: 8s;
@@ -107,6 +107,61 @@ body {
     border-color: transparent transparent transparent #fff5ba;
     animation-delay: 6.8s;
 }
+
+.yellow2 {
+    top: 400px;
+    right: 600px;
+    background: #fff5ba;
+    animation-delay: 4.8s;
+}
+.yellow2:after {
+    border-color: transparent transparent transparent #fff5ba;
+    animation-delay: 4.8s;
+}
+.yellow3 {
+    top: 510px;
+    right: 600px;
+    background: #fff5ba;
+    animation-delay: 7.8s;
+}
+.yellow3:after {
+    border-color: transparent transparent transparent #fff5ba;
+    animation-delay: 7.8s;
+}
+/*comment div*/
+.yellow4 {
+    top: 30px;
+    right: 600px;
+    background: #fff5ba;
+    animation-delay: 2s;
+}
+.yellow4:after {
+    border-color: transparent transparent transparent #fff5ba;
+    animation-delay: 2s;
+}
+
+.yellow5 {
+    top: 10px;
+    right: 600px;
+    background: #fff5ba;
+    animation-delay: 0s;
+}
+.yellow5:after {
+    border-color: transparent transparent transparent #fff5ba;
+    animation-delay: 0s;
+}
+
+.yellow6 {
+    top: 0px;
+    right: 600px;
+    background: #fff5ba;
+    animation-delay: 2s;
+}
+.yellow6:after {
+    border-color: transparent transparent transparent #fff5ba;
+    animation-delay: 2s;
+}
+/*comment div*/
 
 
 @keyframes star-ani {

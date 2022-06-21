@@ -12,7 +12,7 @@ var breakpoint = 0;
 			
 			$('.equinav ul.navbar-nav > li').removeAttr('style');
 			
-			var mq = window.matchMedia('(min-width: 768px)');
+			var mq = window.matchMedia('(min-width: 1080px)');
 			
 			var nav = $('.equinav').innerWidth(); // Navbar Width
 			var items = $('.equinav ul.navbar-nav > li').length; // Total number of menu items
